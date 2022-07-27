@@ -1,0 +1,46 @@
+{
+  "name": "ecomerce_node-js",
+  "version": "1.0.0",
+  "description": "proyecto final de Node.js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jair-Academlo/e-comerce_node-js.git"
+  },
+  "keywords": [
+    "node",
+    "ecomerce"
+  ],
+  "author": "Jair Rincon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jair-Academlo/e-comerce_node-js/issues"
+  },
+  "homepage": "https://github.com/Jair-Academlo/e-comerce_node-js#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "firebase": "^9.9.1",
+    "helmet": "^5.1.0",
+    "html-to-text": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.7",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "pug": "^3.0.2",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
